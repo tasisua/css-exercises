@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
 }
 
 .icon {
@@ -48,6 +50,42 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.flex-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.left-icon {
+  display: flex;
+  padding-right: 15px;
+  justify-content: flex-start;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.3em;
 }
 
 button {
